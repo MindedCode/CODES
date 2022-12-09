@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int n,x,i,j,f=1,s=0;
+    printf("Enter no of term\n");
+    scanf("%d",&n);
+    
+    printf("Enter value of x\n");
+    scanf("%d",&x);
+    
+    for(i=1; i<=n; i++)
+    {
+        for(i=1; i<=n; i++)
+        {
+            f=f*j;
+        }
+        s=s+pow(x,i)/f;
+        f=1;
+        printf("%d is sum of series :",s);
+        
+    }
+}
+
+Output of the program :
+
+Enter no of term
+2
+Enter value of x
+2
+0 is sum of series :
