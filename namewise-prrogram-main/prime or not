@@ -1,0 +1,33 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+There is a program of "prime or not"
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int number;
+    printf("Enter the integer number:(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47.)\n");
+    scanf("%d",&number);
+    
+    if(number%2==1||number==2)
+        {
+            printf("This is a prime number");
+        }
+    else
+        {
+            printf("This is not a prime number");
+        }
+
+    return 0;
+}
+
+
+output of the program :
+
+Enter the integer number:(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47.)
+2
+This is a prime number
