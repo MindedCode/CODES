@@ -13,6 +13,7 @@ public class Main{
         System.out.println("Enter character: ");
         for(int i=0; i<size; i++)
             arr[i] = sc.next().charAt(0);
+        System.out.println("Output of the char array :");
         for(int i=0; i<size; i++)
             System.out.print(arr[i] + " ");
     }
