@@ -1,6 +1,8 @@
 /******************************************************************************
 
-                            Own create binary to decimal
+                            Own create 
+			    1. binary to decimal in java 
+			    2. using recursion in c
 
 *******************************************************************************/
 
@@ -32,9 +34,33 @@ public class Main
 }
 
 
-
 Output of the program:
 1 1 1 1 
+	
+	
+	
+=========================================================// using recursion in c ==========================
+	
+	#include <stdio.h>
+
+	void decimalToBinary(int n) {
+	    if (n > 1) {
+		decimalToBinary(n / 2);
+	    }
+	    printf("%d", n % 2);
+	}
+
+	int main() {
+	    int n = 10;
+	    decimalToBinary(n);
+
+	    return 0;
+	}	
+
+
+
+Output of the program:
+1010 
   
   
   
