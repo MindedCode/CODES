@@ -1,5 +1,6 @@
 main(){
     printf("Hello World@ ! \n / // \\ \\ \\ \\");
+    printf("Hello World \\'\"");
 }
 
 
@@ -21,6 +22,7 @@ Output is:======================================================================
 // main.c:2:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
 // Hello World@ ! 
 // / // \ \ \ \
+// Hello World \'"
 
 // ================================================Second program: ========================================
 
