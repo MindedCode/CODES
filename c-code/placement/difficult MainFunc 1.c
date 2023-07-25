@@ -1,5 +1,5 @@
 
-// In pass main name constant main function.
+// In pass main name constant main function.  No pass any constant
 
 
 int main(main){
