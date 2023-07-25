@@ -1,3 +1,9 @@
+
+
+/*In this code, we have used %i for printing and scanning integers, %g for printing floating-point numbers (both float and double), and %lf specifically 
+for scanning double values. Note that %g can also be used for scanning floating-point numbers, but %lf is required for scanning double values with scanf.*/
+
+
 #include <stdio.h>
 
 int main() {
