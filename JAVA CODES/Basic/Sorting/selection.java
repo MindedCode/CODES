@@ -10,7 +10,7 @@ public class Sorting
     // Selection (Smallest Element) Sorting
     static void bSort(int arr[]){
         for(int i=0; i<arr.length-1; i++){
-            int sm = i;
+            int sm = i;  
             for(int j=i+1; j<arr.length; j++){
                 if(arr[sm]>arr[j]){
                     sm = j;
