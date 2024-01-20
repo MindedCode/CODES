@@ -18,7 +18,8 @@ p_hello(){     //here function is non-void
 
 
 
-**//Output this//**
+**Output this**
+    _PROGRAM_
 
 // main.c: In function ‘main’:
 // main.c:8:5: warning: implicit declaration of function ‘p_hello’ [-Wimplicit-function-declaration]
